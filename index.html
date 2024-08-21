@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <title>Drawing Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+        <div id="toolbar">
+            <input id="color" type="color">
+            <button onclick="changeTool(1)">Pen</button>
+            <button onclick="changeTool(2)">Rectangle</button>
+            <button onclick="changeTool(3)">Circle</button>
+            <button onclick="changeTool(4)">Eraser</button>
+            <button onclick="ctx.clearRect(0, 0, canvas.width, canvas.height);">Clear</button>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>

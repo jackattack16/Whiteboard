@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: lightgrey;
+}
+
+#toolbar {
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 100vw;
+}
+
+#toolbar * {
+    margin-right: 2%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+canvas {
+    background-image: url('feild.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 95vh;
+    height:95vh;
+    width:100vw;
+}
+
+#color {
+    height: 5vh;
+    width: 5vh;
+}
+
+#dash {
+    height: 2.5vh;
+    width: 2.5vh;
+}
